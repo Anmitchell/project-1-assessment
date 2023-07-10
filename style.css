@@ -1,0 +1,38 @@
+body {
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+/*
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+*/
+
+input {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+#count-display {
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
